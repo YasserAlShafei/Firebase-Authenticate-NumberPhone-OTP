@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091C04C72BAE3354F8283AE5 /* Pods_AuthPhone__Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1588A1FF4AA204EDC5F077 /* Pods_AuthPhone__Firebase.framework */; };
 		78B8DB6527ECE6D100026977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B8DB6427ECE6D100026977 /* AppDelegate.swift */; };
 		78B8DB6727ECE6D100026977 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B8DB6627ECE6D100026977 /* SceneDelegate.swift */; };
-		78B8DB6927ECE6D100026977 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B8DB6827ECE6D100026977 /* ViewController.swift */; };
-		78B8DB6C27ECE6D100026977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B8DB6A27ECE6D100026977 /* Main.storyboard */; };
+		78B8DB6927ECE6D100026977 /* PhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B8DB6827ECE6D100026977 /* PhoneVC.swift */; };
 		78B8DB6E27ECE6D200026977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B8DB6D27ECE6D200026977 /* Assets.xcassets */; };
 		78B8DB7127ECE6D200026977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B8DB6F27ECE6D200026977 /* LaunchScreen.storyboard */; };
+		78B8DB7B27ECE72F00026977 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B8DB7A27ECE72F00026977 /* AccountVC.swift */; };
+		78B8DB7D27ECE74700026977 /* SMSCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B8DB7C27ECE74700026977 /* SMSCodeVC.swift */; };
+		78B8DB7F27ECE7F700026977 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B8DB7E27ECE7F700026977 /* AuthManager.swift */; };
+		78B8DB8327ECE88900026977 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78B8DB8227ECE88900026977 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E1588A1FF4AA204EDC5F077 /* Pods_AuthPhone__Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthPhone__Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B8DB6127ECE6D100026977 /* AuthPhone -Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AuthPhone -Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B8DB6427ECE6D100026977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78B8DB6627ECE6D100026977 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		78B8DB6827ECE6D100026977 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		78B8DB6B27ECE6D100026977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78B8DB6827ECE6D100026977 /* PhoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVC.swift; sourceTree = "<group>"; };
 		78B8DB6D27ECE6D200026977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78B8DB7027ECE6D200026977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78B8DB7227ECE6D200026977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B8DB7A27ECE72F00026977 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		78B8DB7C27ECE74700026977 /* SMSCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeVC.swift; sourceTree = "<group>"; };
+		78B8DB7E27ECE7F700026977 /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		78B8DB8227ECE88900026977 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D03B00A7D5978F667E06160A /* Pods-AuthPhone -Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthPhone -Firebase.release.xcconfig"; path = "Target Support Files/Pods-AuthPhone -Firebase/Pods-AuthPhone -Firebase.release.xcconfig"; sourceTree = "<group>"; };
+		F2BBCCDB0D4B5B657E0CA452 /* Pods-AuthPhone -Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthPhone -Firebase.debug.xcconfig"; path = "Target Support Files/Pods-AuthPhone -Firebase/Pods-AuthPhone -Firebase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091C04C72BAE3354F8283AE5 /* Pods_AuthPhone__Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2478BAE590975102216A9335 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E1588A1FF4AA204EDC5F077 /* Pods_AuthPhone__Firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		605DC512E4A03BBD2C3D6D8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2BBCCDB0D4B5B657E0CA452 /* Pods-AuthPhone -Firebase.debug.xcconfig */,
+				D03B00A7D5978F667E06160A /* Pods-AuthPhone -Firebase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		78B8DB5827ECE6D100026977 = {
 			isa = PBXGroup;
 			children = (
 				78B8DB6327ECE6D100026977 /* AuthPhone -Firebase */,
 				78B8DB6227ECE6D100026977 /* Products */,
+				605DC512E4A03BBD2C3D6D8A /* Pods */,
+				2478BAE590975102216A9335 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +88,24 @@
 			children = (
 				78B8DB6427ECE6D100026977 /* AppDelegate.swift */,
 				78B8DB6627ECE6D100026977 /* SceneDelegate.swift */,
-				78B8DB6827ECE6D100026977 /* ViewController.swift */,
-				78B8DB6A27ECE6D100026977 /* Main.storyboard */,
-				78B8DB6D27ECE6D200026977 /* Assets.xcassets */,
+				78B8DB7E27ECE7F700026977 /* AuthManager.swift */,
+				78B8DB7827ECE6FB00026977 /* Controller */,
 				78B8DB6F27ECE6D200026977 /* LaunchScreen.storyboard */,
+				78B8DB6D27ECE6D200026977 /* Assets.xcassets */,
 				78B8DB7227ECE6D200026977 /* Info.plist */,
+				78B8DB8227ECE88900026977 /* GoogleService-Info.plist */,
 			);
 			path = "AuthPhone -Firebase";
+			sourceTree = "<group>";
+		};
+		78B8DB7827ECE6FB00026977 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78B8DB6827ECE6D100026977 /* PhoneVC.swift */,
+				78B8DB7A27ECE72F00026977 /* AccountVC.swift */,
+				78B8DB7C27ECE74700026977 /* SMSCodeVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78B8DB7527ECE6D200026977 /* Build configuration list for PBXNativeTarget "AuthPhone -Firebase" */;
 			buildPhases = (
+				0379FEF1050F21B8398352DF /* [CP] Check Pods Manifest.lock */,
 				78B8DB5D27ECE6D100026977 /* Sources */,
 				78B8DB5E27ECE6D100026977 /* Frameworks */,
 				78B8DB5F27ECE6D100026977 /* Resources */,
+				7C7058F63BD896A0D49BCC06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +170,63 @@
 			files = (
 				78B8DB7127ECE6D200026977 /* LaunchScreen.storyboard in Resources */,
 				78B8DB6E27ECE6D200026977 /* Assets.xcassets in Resources */,
-				78B8DB6C27ECE6D100026977 /* Main.storyboard in Resources */,
+				78B8DB8327ECE88900026977 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0379FEF1050F21B8398352DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthPhone -Firebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C7058F63BD896A0D49BCC06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthPhone -Firebase/Pods-AuthPhone -Firebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthPhone -Firebase/Pods-AuthPhone -Firebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AuthPhone -Firebase/Pods-AuthPhone -Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		78B8DB5D27ECE6D100026977 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78B8DB6927ECE6D100026977 /* ViewController.swift in Sources */,
+				78B8DB7B27ECE72F00026977 /* AccountVC.swift in Sources */,
+				78B8DB7F27ECE7F700026977 /* AuthManager.swift in Sources */,
+				78B8DB7D27ECE74700026977 /* SMSCodeVC.swift in Sources */,
+				78B8DB6927ECE6D100026977 /* PhoneVC.swift in Sources */,
 				78B8DB6527ECE6D100026977 /* AppDelegate.swift in Sources */,
 				78B8DB6727ECE6D100026977 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +235,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		78B8DB6A27ECE6D100026977 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78B8DB6B27ECE6D100026977 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		78B8DB6F27ECE6D200026977 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +362,7 @@
 		};
 		78B8DB7627ECE6D200026977 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BBCCDB0D4B5B657E0CA452 /* Pods-AuthPhone -Firebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,7 +372,6 @@
 				INFOPLIST_FILE = "AuthPhone -Firebase/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,12 +383,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		78B8DB7727ECE6D200026977 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03B00A7D5978F667E06160A /* Pods-AuthPhone -Firebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,7 +399,6 @@
 				INFOPLIST_FILE = "AuthPhone -Firebase/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,7 +410,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
